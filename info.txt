@@ -1,0 +1,18 @@
+1- npm init
+2- npm install cypress --save-dev (Instalación)
+3.1- npm install -g npx (instalar npx)
+3- node_modules\.bin\cypress open 
+4- npx cypress open
+5-Cypress. on('uncaught:exception', (err, runnable) => { return false; });
+/// <reference types="Cypress" /> --------------> On top
+6- npm install -D cypress-plugin-tab /// require('cypress-plugin-tab')
+7- npm install -D cypress-xpath      /// require('cypress-xpath')      instalar en chrome extension truexpath
+8- npm install --save-dev cypress-file-upload /// import 'cypress-file-upload'  //plugin para cargar ficheros
+9- npm install --save-dev @4tw/cypress-drag-drop /// require('@4tw/cypress-drag-drop')
+10- npm install --save-dev cypress-mochawesome-reporter/// import 'cypress-mochawesome-reporter/register'
+11-npm install -D @badeball/cypress-cucumber-preprocessor   
+11.1-npm install -D @bahmutov/cypress-esbuild-preprocessor esbuild
+
+
+npx cypress run --record --key e16146f9-bbc8-4d00-acfe-556ec62504f5
+npx install cypress-otp (Para manejo de autencticacion otp)
