@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Sergio",
+        "email": "Sergio@sergio.com",
+        "dir1": "Calle falsa",
+        "dir2": "Fake street"
+    },
+    {
+        "nombre": "Pepe",
+        "email": "Pepe@pepe.com",
+        "dir1": "Calle falsa",
+        "dir2": "Fake street"
+    },
+    {
+        "nombre": "Laura",
+        "email": "Laura@laura.com",
+        "dir1": "Calle falsa",
+        "dir2": "Fake street"
+    }
+]
