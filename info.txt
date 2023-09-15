@@ -14,5 +14,5 @@
 11.1-npm install -D @bahmutov/cypress-esbuild-preprocessor esbuild
 
 
-npx cypress run --record --key e16146f9-bbc8-4d00-acfe-556ec62504f5
+npx cypress run --record --key 46c3eeb9-fd56-47db-a3a4-295cbdb45149
 npx install cypress-otp (Para manejo de autencticacion otp)
