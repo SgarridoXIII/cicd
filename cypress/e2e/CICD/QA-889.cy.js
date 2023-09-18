@@ -16,10 +16,10 @@ describe('Test QA-889 - Crear vehículo_obligatoriedad campos_Denominacion comer
 
   // Introducimos usuario o email y contraseña y pulsamos Acceder
   it('step 2', () => {
-    cy.get("#username").type("UVB7P3Y")
-    cy.get('#password').type('Entrada@2022@2023')
-    cy.get('#kc-login').click()
-    cy.wait(1000)
+    cy.get("#username").type("sergio.garrido@siigroup-spain.com") 
+        cy.get("#password").type("Godella21!con") 
+        cy.get('#passwordTab > form > :nth-child(4) > .btn').should("be.visible").click()
+        cy.wait(2000) //Fin login
   });
 
   // Desde la pantalla "Home", pulsamos sobre el botón +

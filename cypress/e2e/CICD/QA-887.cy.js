@@ -19,10 +19,10 @@ describe('Test QA-887 Crear vehículo_obligatoriedad campos_Marca', () => {
     })
     
     it("Step 2", () => {
-        cy.get("#username").type("UVB7P3Y")
-        cy.get('#password').type('Entrada@2022@2023')
-        cy.get('#kc-login').click()
-        cy.wait(2000) //Fin login
+      cy.get("#username").type("sergio.garrido@siigroup-spain.com") 
+      cy.get("#password").type("Godella21!con") 
+      cy.get('#passwordTab > form > :nth-child(4) > .btn').should("be.visible").click()
+      cy.wait(2000) //Fin login
     })
     
     it("Step 3", () => {

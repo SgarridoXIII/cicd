@@ -19,9 +19,9 @@ describe('Test QA-863 Crear vehículo_campos', () => {
     })
 
     it("Step 2", () => {
-        cy.get("#username").type("UVB7P3Y")
-        cy.get('#password').type('Entrada@2022@2023')
-        cy.get('#kc-login').click()
+        cy.get("#username").type("sergio.garrido@siigroup-spain.com") 
+        cy.get("#password").type("Godella21!con") 
+        cy.get('#passwordTab > form > :nth-child(4) > .btn').should("be.visible").click()
         cy.wait(2000) //Fin login
     })
 
