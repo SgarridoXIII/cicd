@@ -19,10 +19,10 @@ describe('QA-885	Crear vehículo_obligatoriedad campos_Matrícula', () => {
   })
 
   it("Step 2", () => {
-    cy.get("#username").type("UVB7P3Y")
-    cy.get('#password').type('Entrada@2022@2023')
-    cy.get('#kc-login').click()
-    cy.wait(2000) //Fin login
+    cy.get("#username").type("sergio.garrido@siigroup-spain.com") 
+        cy.get("#password").type("Godella21!con") 
+        cy.get('#passwordTab > form > :nth-child(4) > .btn').should("be.visible").click()
+        cy.wait(2000) //Fin login
   })
 
   it("Step 3", () => {
@@ -71,6 +71,6 @@ describe('QA-885	Crear vehículo_obligatoriedad campos_Matrícula', () => {
     cy.visit('/')
     cy.get('.top-navigation-bar__actions > .userIcon').click()
     cy.get('.mat-menu-content > :nth-child(2)').click()
-    cy.wait(1000) 
+    cy.wait(1000)
   })//Fin logout
 })
